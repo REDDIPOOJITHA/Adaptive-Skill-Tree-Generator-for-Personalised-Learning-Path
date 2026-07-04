@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Landing page template built with HTML and Bootstrap 4 for presenting training courses, classes, workshops and for convincing visitors to register using the form.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Project</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="{%static 'css/bootstrap.css'%}" rel="stylesheet">
+    <link href="{%static 'css/fontawesome-all.css'%}" rel="stylesheet">
+    <link href="{%static 'css/swiper.css'%}" rel="stylesheet">
+	<link href="{%static 'css/magnific-popup.css'%}" rel="stylesheet">
+	<link href="{%static 'css/styles.css'%}" rel="stylesheet">
+	
+	<!-- Favicon  -->
+
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Corso</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html">Adaptive Skill Tree Generation for Personalized Learning Path</a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#adminlogin">ADMIN <span class="sr-only">(current)</span></a>
+                </li>
+
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">STUDENT</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#userlogin"><span class="item-text">LOGIN</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#contact"><span class="item-text">REGISTER</span></a>
+
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">REGISTER</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="countdown">
+                            <p style="color:red">{{msg}}</p>
+                        </div>
+                        <h1>Adaptive Skill Tree Generation</h1>
+                        <p class="p-large">In today’s dynamic and competitive world, personalized education is essential to meet the unique learning needs and career aspirations of individuals. This project introduces an intelligent Django-based web application that dynamically generates an adaptive skill tree for each user, tailored to their career interests, goals, and current competencies. </p>
+                        <a class="btn-solid-lg page-scroll" href="#contact">REGISTER</a>
+                        <a class="btn-outline-lg page-scroll" href="#userlogin">LOGIN</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        
+        <!-- Image Slider -->
+        <div class="outer-container">
+            <div class="slider-container">
+                <div class="swiper-container image-slider-1">
+                    <div class="swiper-wrapper">
+                        
+                        <!-- Slide -->
+                        <div class="swiper-slide" >
+                            <img class="img-fluid" src="{%static 'images/details-slide-1.jpg'%}" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="{%static 'images/details-slide-2.jpg'%}" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="{%static 'images/details-slide-3.jpg'%}" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                    </div> <!-- end of swiper-wrapper -->
+                    
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+                    
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+        </div> <!-- end of outer-container -->
+        <!-- end of image slider -->
+
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Registration -->
+    <div id="adminlogin" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Admin Login Using The Form</h2>
+                       <p class="p-small">In today’s dynamic and competitive world, personalized education is essential to meet the unique learning needs and career aspirations of individuals. This project introduces an intelligent Django-based web application that dynamically generates an adaptive skill tree for each user, tailored to their career interests, goals, and current competencies. </p>
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Registration Form -->
+                    <div class="form-container">
+                        <form  action="/ALogAction" method="post">
+                            {%csrf_token%}
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="rname" name="uname" required>
+                                <label class="label-control" for="rname">User name</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control-input" id="remail" name="password" required>
+                                <label class="label-control" for="remail">Password</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">LOGIN</button>
+                            </div>
+
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of registration form -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of registration -->
+
+
+
+
+
+
+
+    <!-- Students -->
+    <div class="basic-3" id="userlogin">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Student Login</h2>
+
+
+  <!-- Registration Form -->
+                    <div class="form-container">
+                        <form id="userlogin1" method="post" data-toggle="validator" data-focus="false" action="/user/UserLogAction">
+                            {%csrf_token%}
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="rnam" name="username" required>
+                                <label class="label-control" for="rname">User name</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control-input" id="passsword" name="password" required>
+                                <label class="label-control" for="remail">Password</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">LOGIN</button>
+                            </div>
+                            <p>Don't Have An Account?<a href="#contact"> Register</a></p>
+                            <div class="form-message">
+                                <div id="rmsgSubmit1" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of registration form -->
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{%static 'raw.jpg'%}" alt="alternative">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of students -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Date -->
+    <div id="date" class="basic-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h2>Adaptive Skill Tree </h2>
+                        <p>The system performs skill assessments through quizzes and textual analysis, classifies learners based on their learning pace (fast, moderate, or slow), and recommends optimized learning resources accordingly. !</p>
+                        <a class="btn-solid-lg page-scroll" href="#contact">REGISTER</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-5 -->
+    <!-- end of date -->
+
+
+    <!-- Newsletter -->
+    <div class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    
+
+
+                    <!-- end of social icons -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of newsletter -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="form-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Registration Here</h2>
+                        <p>For registration questions please get in touch using the contact details below. For any questions use the form.</p>
+
+                        <ul class="list-unstyled li-space-lg">
+
+
+
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Contact Form -->
+                    <form   data-focus="false" action="/user/RegAction" method="post">
+                        {%csrf_token%}
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" name="mobile" class="form-control-input" id="mobile" required>
+                            <label class="label-control" for="cname">Mobile</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" name="address" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Your Addess</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="username" class="form-control-input" id="uname" required>
+                            <label class="label-control" for="cname">UserName</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" class="form-control-input" id="password" required>
+                            <label class="label-control" for="cname">Password</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">SUBMIT</button>
+                        </div>
+                        Already Have An Account? <a href="#userlogin"> Login</a>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-3 -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div> <!-- end of col -->
+                <div class="col-md-3">
+
+                </div> <!-- end of col -->
+                <div class="col-md-3">
+
+                <div class="col-md-3">
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2024-2025</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="{%static 'js/jquery.min.js'%}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="{%static 'js/popper.min.js'%}"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="{%static 'js/bootstrap.min.js'%}"></script> <!-- Bootstrap framework -->
+    <script src="{%static 'js/jquery.easing.min.js'%}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="{%static 'js/jquery.countdown.min.js'%}"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="{%static 'js/swiper.min.js'%}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{%static 'js/jquery.magnific-popup.js'%}"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="{%static 'js/validator.min.js'%}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="{%static 'js/scripts.js'%}"></script> <!-- Custom scripts -->
+</body>
+</html>
