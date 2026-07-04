@@ -1,0 +1,101 @@
+id,subject,question,ans_one,ans_two,ans_three,c_ans,q_type
+75,C++,Which of the following is the correct file extension for C++ files?,.c,.cpp,.cp,B,Easy
+76,C++,Which concept allows using the same function name with different arguments?,Polymorphism,Abstraction,Encapsulation,A,Easy
+77,C++,Which operator is used to allocate memory dynamically in C++?,malloc,new,alloc,B,Easy
+78,C++,Which operator must be overloaded to compare two objects?,=,==,!=,B,Average
+79,C++,Which feature of C++ is used to implement data hiding?,Inheritance,Encapsulation,Polymorphism,B,Easy
+80,C++,Which keyword is used to define a class in C++?,struct,class,object,B,Easy
+81,C++,Which constructor is called when an object is created without arguments?,Copy constructor,Default constructor,Parameterized constructor,B,Easy
+82,C++,Which keyword is used to define a constant in C++?,const,final,constant,A,Easy
+83,C++,Which concept is used when the same function behaves differently based on objects?,Overloading,Overriding,Virtual function,C,Average
+84,C++,Which of the following supports multiple inheritance?,Class,Interface,Struct,A,Average
+85,C++,Which operator is used to access members of a class through a pointer?,.,->,::,B,Easy
+86,C++,Which method is automatically called when an object is destroyed?,delete(),destructor,free(),B,Easy
+87,C++,Which keyword is used to make a class abstract in C++?,abstract,virtual,interface,B,Hard
+88,C++,Which type of function must be overridden in a derived class?,static function,virtual function,inline function,B,Hard
+89,C++,Which keyword is used to inherit a class in C++?,inherit,extends,public/private/protected,C,Easy
+90,C++,Which of the following is not a type of polymorphism in C++?,Compile-time,Run-time,Design-time,C,Average
+91,C++,Which operator is used to resolve scope in C++?,.,::,->,B,Easy
+92,C++,Which memory allocation function is preferred in C++?,malloc(),calloc(),new,C,Hard
+93,C++,Which of these allows reusability in C++?,Encapsulation,Inheritance,Polymorphism,B,Easy
+94,C++,Which of the following cannot be inherited in C++?,Constructors,Methods,Attributes,A,Hard
+95,Python,Which keyword is used to define a function in Python?,def,function,fun,A,Easy
+96,Python,Which of the following is a mutable data type in Python?,tuple,list,string,B,Easy
+97,Python,Which operator is used for floor division?,/,//,%,B,Easy
+98,Python,Which of these is a Python package for machine learning?,scikit-learn,Django,Flask,A,Average
+99,Python,Which module is used for regular expressions?,regex,re,pyregex,B,Hard
+100,Python,What does PEP stand for in Python?,Python Enhancement Proposal,Python Execution Process,Python Extended Package,A,Average
+101,Python,What is the output of bool([])?,TRUE,FALSE,Error,B,Average
+102,Python,Which symbol is used for comments in Python?,//,#,/* */,B,Easy
+103,Python,Which keyword is used for anonymous functions?,lambda,def,func,A,Average
+104,Python,Which module is used to serialize Python objects?,pickle,json,marshal,A,Hard
+105,Python,Which built-in function returns the length of an object?,count(),len(),size(),B,Easy
+106,Python,What is the default return type of input()?,int,str,float,B,Easy
+107,Python,Which library is used for numerical operations?,NumPy,Pandas,Seaborn,A,Easy
+108,Python,Which keyword is used to handle exceptions?,try,catch,except,C,Easy
+109,Python,Which Python feature allows multiple inheritance?,Overloading,MRO,Encapsulation,B,Hard
+110,Python,Which function is used to get unique elements from a list?,unique(),set(),distinct(),B,Average
+111,Python,Which keyword is used to create a class?,class,object,struct,A,Easy
+112,Python,Which decorator is used for defining class methods?,@classmethod,@staticmethod,@property,A,Hard
+113,Python,Which module provides support for multithreading?,threading,multiprocessing,asyncio,A,Hard
+114,Python,Which keyword is used to import a module?,import,include,require,A,Easy
+115,Java,Which method is the entry point of Java programs?,start(),main(),execute(),B,Easy
+116,Java,Which keyword is used to inherit a class?,super,extends,implements,B,Easy
+117,Java,Which operator is used for string concatenation?,+,&,.,A,Easy
+118,Java,Which exception is thrown when dividing by zero?,NullPointerException,ArithmeticException,IOException,B,Easy
+119,Java,Which package is imported by default?,java.lang,java.util,java.io,A,Easy
+120,Java,Which method is used to start a thread?,start(),run(),execute(),A,Average
+121,Java,Which keyword prevents inheritance?,final,static,sealed,A,Average
+122,Java,Which of these is a marker interface?,Runnable,Serializable,Cloneable,B,Hard
+123,Java,Which collection does not allow duplicate elements?,HashSet,ArrayList,HashMap,A,Average
+124,Java,Which keyword is used for exception handling?,catch,try,handle,B,Easy
+125,Java,Which of these cannot be inherited?,Constructors,Methods,Attributes,A,Hard
+126,Java,Which class is the root of all classes in Java?,Class,Object,Base,B,Easy
+127,Java,Which of these is not a primitive type?,int,boolean,String,C,Easy
+128,Java,Which keyword is used for interfaces?,interface,implements,abstract,A,Easy
+129,Java,Which feature ensures Java is platform independent?,JVM,Bytecode,Compiler,B,Average
+130,Java,Which access modifier gives visibility only within the same package?,public,default,private,B,Average
+131,Java,Which Java feature is implemented with method overloading?,Compile-time polymorphism,Run-time polymorphism,Encapsulation,A,Hard
+132,Java,Which file extension is used for Java bytecode?,.class,.java,.jar,A,Easy
+133,Java,Which keyword is used to define a constant variable?,const,final,static,B,Average
+134,Java,Which memory area stores objects in Java?,Heap,Stack,Register,A,Hard
+135,C,Which symbol ends a statement in C?,.,;,:,B,Easy
+136,C,Which header defines printf()?,<stdio.h>,<stdlib.h>,<conio.h>,A,Easy
+137,C,Which operator gets the address of a variable?,&,*,@,A,Easy
+138,C,What is the size of int on a 32-bit system?,2 bytes,4 bytes,8 bytes,B,Average
+139,C,Which loop executes at least once?,for,while,do-while,C,Easy
+140,C,Which function allocates memory dynamically?,malloc(),alloc(),memory(),A,Average
+141,C,Which of these is not a storage class?,auto,static,mutable,C,Average
+142,C,Which function compares two strings?,strcmp(),strlen(),strcat(),A,Easy
+143,C,Which directive includes files?,#include,#define,#import,A,Easy
+144,C,Which function frees allocated memory?,free(),delete(),dispose(),A,Easy
+145,C,Which header is needed for malloc?,<malloc.h>,<stdlib.h>,<string.h>,B,Average
+146,C,Which keyword exits a switch?,end,exit,break,C,Easy
+147,C,Which function reads a character?,scanf(),getchar(),gets(),B,Average
+148,C,Which operator accesses value at an address?,*,&,%,A,Easy
+149,C,What is the output of 5/2?,2.5,2,3,B,Easy
+150,C,Which concept is not in C?,Encapsulation,Recursion,Pointers,A,Hard
+151,C,Which feature of C allows function calls inside functions?,Encapsulation,Recursion,Polymorphism,B,Average
+152,C,Which memory is used by global variables?,Heap,Stack,Data segment,C,Hard
+153,C,Which operator is used for conditional execution?,if,?:,switch,B,Hard
+154,C,Which type specifier is used for unsigned int?,u,unsigned,uns,B,Easy
+175,Database,Which SQL command is used to retrieve data from a database?,SELECT,INSERT,UPDATE,A,Easy
+176,Database,What does DDL stand for in SQL?,Data Definition Language,Data Description Language,Data Design Language,A,Easy
+177,Database,Which SQL clause is used to filter rows?,WHERE,ORDER BY,GROUP BY,A,Easy
+178,Database,Which type of key uniquely identifies a record in a table?,Foreign Key,Primary Key,Candidate Key,B,Easy
+179,Database,What is the default sorting order in SQL?,Ascending,Descending,Random,A,Easy
+180,Database,Which command is used to remove a table from the database?,DROP TABLE,DELETE TABLE,REMOVE TABLE,A,Average
+181,Database,Which constraint ensures that a column cannot have NULL values?,CHECK,NOT NULL,UNIQUE,B,Average
+182,Database,Which SQL function is used to count rows?,COUNT(),SUM(),MAX(),A,Average
+183,Database,Which operator is used with WHERE to search for a pattern?,LIKE,IN,BETWEEN,A,Average
+184,Database,Which join returns all rows when there is a match in one of the tables?,LEFT JOIN,FULL JOIN,INNER JOIN,B,Average
+185,Database,Which normal form eliminates partial dependency?,1NF,2NF,3NF,B,Hard
+186,Database,Which SQL keyword is used to combine the result of two queries?,UNION,INTERSECT,MERGE,A,Hard
+187,Database,Which indexing method stores data in a tree structure?,Hash Indexing,B-Tree Indexing,Bitmap Indexing,B,Hard
+188,Database,Which type of SQL command is COMMIT?,DDL,DCL,TCL,C,Hard
+189,Database,Which anomaly occurs when data redundancy leads to inconsistency?,Insertion Anomaly,Update Anomaly,Deletion Anomaly,B,Hard
+190,Database,Which isolation level prevents dirty reads?,Read Committed,Read Uncommitted,Serializable,A,Hard
+191,Database,Which SQL function is used to find the highest value?,MIN(),MAX(),TOP(),B,Average
+192,Database,Which SQL keyword is used to sort results?,ORDER BY,SORT BY,ARRANGE,A,Easy
+193,Database,Which of these is not a type of SQL join?,INNER JOIN,OUTER JOIN,CROSS MERGE,C,Average
+194,Database,Which database model organizes data into tables with rows and columns?,Hierarchical Model,Relational Model,Network Model,B,Easy
